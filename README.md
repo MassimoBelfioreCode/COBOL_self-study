@@ -6,7 +6,11 @@ COBOL Compiler Installation (GnuCOBOL) on your machine
 ---
 Instructions for installing :
 
-Open a new terminal window and type:  sudo apt install open-cobol
+OS: Linux
+
+Open a new terminal window and type:   sudo apt install open-cobol
+
+Note: this will install the recommended/predefined version of GnuCOBOL for your system and not necesserally the latest version released.
 
 procede with installation.
 
