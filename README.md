@@ -2,11 +2,9 @@
 Repo with my COBOL study material and programs (Livello base).
 
 ---
-COBOL Compiler Installation (GnuCOBOL) on your machine
+COBOL Compiler Installation (GnuCOBOL) on your machine  -- OS: Linux
 ---
-Instructions for installing :
-
-OS: Linux
+Instructions for installing:
 
 Open a new terminal window and type:   sudo apt install open-cobol
 
