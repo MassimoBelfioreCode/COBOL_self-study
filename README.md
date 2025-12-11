@@ -21,8 +21,11 @@ However, you can use (if you want) any secure and compatible extension available
 You can now program the Hello World come da prassi.
 
 IDENTIFICATION DIVISION.
+
 PROGRAM-ID. IDSAMPLE.
+
 ENVIRONMENT DIVISION.
+
 PROCEDURE DIVISION.
     DISPLAY 'HELLO WORLD'.
     DISPLAY 'THIS IS MY FIRST PROGRAM IN COBOL, WOW'.
