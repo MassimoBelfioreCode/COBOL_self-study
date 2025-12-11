@@ -19,7 +19,7 @@ PROCEDURE DIVISION.
     END-IF
 
     IF B > A
-       DISPLAY 'TRUE'
+       DISPLAY 'This is sure that will never be printed'
     END-IF
     STOP RUN.
 
