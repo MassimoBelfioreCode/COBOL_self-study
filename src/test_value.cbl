@@ -15,11 +15,11 @@ PROCEDURE DIVISION.
     END-IF
 
     IF A NOT < B
-       DISPLAY 'FALSE'
+       DISPLAY 'This will never be printed'
     END-IF
 
     IF B > A
-       DISPLAY 'This is sure that will never be printed'
+       DISPLAY 'TRUE'
     END-IF
     STOP RUN.
 
