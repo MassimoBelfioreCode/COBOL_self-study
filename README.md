@@ -18,10 +18,9 @@ Use any IDE or text editor you want for writing Cobol programs.
 You can now program the Hello World (come da prassi).
 
 IDENTIFICATION DIVISION.  
-PROGRAM-ID. IDSAMPLE.  
-ENVIRONMENT DIVISION.  
+PROGRAM-ID. HELLO_WORLD.   
 PROCEDURE DIVISION.
-
+1000-PARA.
     DISPLAY 'HELLO WORLD'.
     
     DISPLAY 'THIS IS MY FIRST PROGRAM IN COBOL, WOW'.
