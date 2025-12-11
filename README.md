@@ -16,3 +16,14 @@ At the end of installation you can check if everything gone good opening a new t
 
 Now if you use just like me VS Code I reccomend to install the COBOL extension. It is represented with a blue circle.
 However, you can use (if you want) any secure and compatible extension available. (Io uso questa, ^.^). 
+
+
+You can now program the Hello World come da prassi.
+
+IDENTIFICATION DIVISION.
+PROGRAM-ID. IDSAMPLE.
+ENVIRONMENT DIVISION.
+PROCEDURE DIVISION.
+    DISPLAY 'HELLO WORLD'.
+    DISPLAY 'THIS IS MY FIRST PROGRAM IN COBOL, WOW'.
+    STOP RUN.
