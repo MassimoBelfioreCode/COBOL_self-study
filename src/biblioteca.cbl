@@ -2,7 +2,7 @@ IDENTIFICATION DIVISION.
 PROGRAM-ID. BIBLIOTECA.
 DATA DIVISION.
     WORKING-STORAGE SECTION.
-    *> libro così è una group variable, globale e unica all'interno del programma
+    *> dichiarazione di un record libro
         01 LIBRO-RECORD.
             02 TIT PIC X(20).
             02 AUT PIC X(20).
@@ -17,4 +17,3 @@ PROCEDURE DIVISION.
     SET TIT TO "Pet Sematary".
     DISPLAY LIBRO-RECORD.
 STOP RUN.
-
