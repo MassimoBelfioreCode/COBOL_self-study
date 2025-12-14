@@ -4,18 +4,40 @@ PROGRAM-ID. WEEK.
 AUTHOR. MAX.
 
 DATA DIVISION.
-	WORKING-STORAGE SECTION.
-	01 DAYS-ARR.
-		07 DAY1 PIC X(15) VALUE "Sunday".
-		07 DAY2 PIC X(15) VALUE "Monday".
-		07 DAY3 PIC X(15) VALUE "Tuesday".
-		07 DAY4 PIC X(15) VALUE "Wednsday".
-		07 DAY5 PIC X(15) VALUE "Thursday".
-		07 DAY6 PIC X(15) VALUE "Friday".
-		07 DAY7 PIC X(15) VALUE "Saturday".
+WORKING-STORAGE SECTION.
+*> dichiaro un array (table) e lo riempio di giorni
+01 WS-WEEK.
+	07 WS-DAY OCCURS 7 TIMES INDEXED BY WS-IDX.
+	   08 WS-NAME PIC X(15).
+	   
 
 PROCEDURE DIVISION.
+	SET WS-IDX TO 1.
+	MOVE "Sunday" TO WS-DAY(WS-IDX).
+	
+	SET WS-IDX UP BY 1.
+	MOVE "Monday" TO WS-DAY(WS-IDX).
+	
+	SET WS-IDX UP BY 1.
+	MOVE "Tuesday" TO WS-DAY(WS-IDX).
+	
+	SET WS-IDX UP BY 1.
+	MOVE "Wednesday" TO WS-DAY(WS-IDX).
+	
+	SET WS-IDX UP BY 1.
+	MOVE "Thursday" TO WS-DAY(WS-IDX).
+	
+		
+	SET WS-IDX UP BY 1.
+	MOVE "Friday" TO WS-DAY(WS-IDX).
+	
+		
+	SET WS-IDX UP BY 1.
+	MOVE "Saturday" TO WS-DAY(WS-IDX).
 
-	DISPLAY "Days of week: " DAYS-ARR.
+	PERFORM VARYING WS-IDX FROM 1 BY 1 UNTIL WS-IDX > 7
+		DISPLAY "Days of the week: " WS-DAY(WS-IDX)
+	END PERFORM.
+	
 STOP RUN.
 
