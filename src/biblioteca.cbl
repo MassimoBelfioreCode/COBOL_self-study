@@ -1,9 +1,9 @@
 IDENTIFICATION DIVISION.
-PROGRAM-ID. GROUP_VARS.
+PROGRAM-ID. BIBLIOTECA.
 DATA DIVISION.
     WORKING-STORAGE SECTION.
     *> libro così è una group variable, globale e unica all'interno del programma
-        01 LIBRO-GROUP.
+        01 LIBRO-RECORD.
             02 TIT PIC X(20).
             02 AUT PIC X(20).
             02 GEN PIC X(20).
@@ -15,6 +15,6 @@ PROCEDURE DIVISION.
     SET AUT TO "Stephen King".
     SET GEN TO "Horror".
     SET TIT TO "Pet Sematary".
-    DISPLAY LIBRO-GROUP.
+    DISPLAY LIBRO-RECORD.
 STOP RUN.
 
