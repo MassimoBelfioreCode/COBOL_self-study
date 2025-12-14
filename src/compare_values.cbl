@@ -4,22 +4,22 @@ PROGRAM-ID. TEST_VALUE.
 ENVIRONMENT DIVISION.
 
 DATA DIVISION.
-WORKING-STORAGE SECTION.
-01 ETA PIC S9(4) VALUE 67.
-01 A   PIC S9(4) VALUE 4.
-01 B   PIC S9(4) VALUE 18.
+	WORKING-STORAGE SECTION.
+	01 ETA PIC S9(4) VALUE 67.
+	01 A   PIC S9(4) VALUE 4.
+	01 B   PIC S9(4) VALUE 18.
 
 PROCEDURE DIVISION.
-    IF ETA >= 67
-       DISPLAY 'MOM, YOU CAN RETIRE'
-    END-IF
+	IF ETA >= 67
+       	DISPLAY 'YOU CAN RETIRE'
+	END-IF
 
-    IF A NOT < B
-       DISPLAY 'This will never be printed'
-    END-IF
+    	IF A NOT < B
+       	DISPLAY 'This will never be printed'
+    	END-IF
 
-    IF B > A
-       DISPLAY 'TRUE'
-    END-IF
+    	IF B > A
+       	DISPLAY 'TRUE'
+    	END-IF
     STOP RUN.
 
