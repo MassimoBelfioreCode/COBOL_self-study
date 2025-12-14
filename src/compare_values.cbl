@@ -1,5 +1,5 @@
 IDENTIFICATION DIVISION.
-PROGRAM-ID. TEST_VALUE.
+PROGRAM-ID. COMPARE_VALUES.
 
 ENVIRONMENT DIVISION.
 
@@ -14,12 +14,12 @@ PROCEDURE DIVISION.
        	DISPLAY 'YOU CAN RETIRE'
 	END-IF
 
-    	IF A NOT < B
-       	DISPLAY 'This will never be printed'
-    	END-IF
+	IF A NOT < B
+	DISPLAY 'This will never be printed'
+	END-IF
 
-    	IF B > A
-       	DISPLAY 'TRUE'
-    	END-IF
+	IF B > A
+	DISPLAY 'TRUE'
+	END-IF
     STOP RUN.
 
