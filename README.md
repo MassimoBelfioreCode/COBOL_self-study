@@ -13,7 +13,7 @@ Note: this will install the recommended/predefined version of GnuCOBOL for your 
 procede with installation.
 
 At the end of installation you can check if everything gone good opening a new terminal window and typing:  cobc --version  
-Use any IDE or text editor you want for writing COBOL programs.
+Use any IDE or text editor you prefer for writing COBOL programs.
 
 You can now program the Hello World (come da prassi).
 
