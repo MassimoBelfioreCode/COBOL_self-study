@@ -2,7 +2,7 @@ IDENTIFICATION DIVISION.
 PROGRAM-ID. BIBLIOTECA.
 DATA DIVISION.
      WORKING-STORAGE SECTION.
-*> dichiarazione di un record libro
+* dichiarazione di un record libro
      01 LIBRO-RECORD.
 	02 TIT PIC X(20).
 	02 AUT PIC X(20).
