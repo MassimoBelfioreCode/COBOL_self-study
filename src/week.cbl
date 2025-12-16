@@ -4,9 +4,9 @@ PROGRAM-ID. WEEK.
 AUTHOR. MAX.
 
 DATA DIVISION.
-WORKING-STORAGE SECTION.
-*> dichiaro un array (table) e lo riempio di giorni
-01 WS-WEEK.
+     WORKING-STORAGE SECTION.
+*> dichiaro un array (table) e lo riempio di giorni	
+     01 WS-WEEK.
 	07 WS-DAY OCCURS 7 TIMES INDEXED BY WS-IDX.
 	   08 WS-NAME PIC X(15).
 	   
