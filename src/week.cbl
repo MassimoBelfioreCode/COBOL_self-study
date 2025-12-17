@@ -8,7 +8,7 @@ DATA DIVISION.
 * dichiaro un array (table) e lo riempio di giorni	
      01 WS-WEEK.
 	07 WS-DAY OCCURS 7 TIMES INDEXED BY WS-IDX.
-	   08 WS-NAME PIC X(15).
+	08 WS-NAME PIC X(15).
 	   
 
 PROCEDURE DIVISION.
