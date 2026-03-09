@@ -1,5 +1,5 @@
 # COBOL_self-study
-Repo with my COBOL study material and programs (Livello base).
+Repo containing my COBOL study material and programs (Livello base).
 
 ---
 COBOL Compiler Installation (GnuCOBOL) on your machine  -- OS: Linux
